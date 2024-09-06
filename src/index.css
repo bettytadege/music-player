@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer{
+    .scrollbarhide::-webkit-scrollbar{
+        display: none;
+    }
+    .rotate-text {
+        
+            transform: rotate(-90deg);
+            /* transform-origin: bottom right; */
+            /* white-space: nowrap; */
+          
+      }
+}
